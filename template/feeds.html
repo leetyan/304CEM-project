@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <script>
+        function favourite() {
+            alert("Put in the favourite list!");
+        }
+    </script>
+    <head>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/feeds.css">
+        <title>Recipe Feeds</title>
+    </head>
+
+    <body id="home">
+        <!-- Beginning of Nav Bar -->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+            <div class="container">
+              <a style="color: white;font-size: 30px;" href="users.html">FoodRecipe</a>
+                    <div class="navbar-collapse justify-content-end" id="navbarNav">
+                       <form class="form-inline my-2 my-lg-0">
+                           
+                           <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              All Recipes
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="feeds.html">All Recipes</a>
+                              <a class="dropdown-item" href="list.html">Favourites</a>
+                              <a class="dropdown-item" href="profile.html">Profile</a>
+                              <a class="dropdown-item" href="index.html">Logout</a>
+                            </div>
+                          </div>
+                       </form>
+                   </div>
+           </div>   
+       </nav>
+       <!-- End of Navbar -->
+
+        <!--Start of Main Section -->
+        <section id="share-head-section" class="bg-light text-primary">
+            <div class="container">
+                <main>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="page-header">
+                                <a href="new-post.html" class="btn btn-success float-right" role="button">Create a new Recipe</a>
+                                 </button>
+                                    <h2>Recipe Feeds</h2>
+                                </div>
+                                    <div class="card-deck">
+                                    
+                                    
+                                    <div class="card mb-4">
+                                   <a href="recipes-details.html"> <img class="card-img-top" src="img/salad.jpg" alt="Card image cap"></a>
+                                        <div class="card-block">
+                                          <a href="recipes-details.html"><h4 class="card-title">Yoruba Sald</h4></a>
+                                          <p class="card-text">Good </p>
+                                          <span class="icons">
+                                            <p class="card-text"><small class="text-muted"><a href="users.html">post by grace</a>
+                                              <button onclick="favourite()" class="btn btn-success btn-block">I like it</button></small></p>
+                                          </span>
+                                        </div>
+                                    </div>
+                                    
+
+                                      <div class="card mb-4">
+                                        <a href="recipes-details.html"> <img class="card-img-top" src="img/toast.jpg" alt="Card image cap"> </a>
+                                        <div class="card-block">
+                                          <a href="recipes-details.html"><h4 class="card-title">British Toast</h4></a>
+                                          <p class="card-text">Well</p>
+                                          <span class="icons">
+                                            
+                                          </span>
+                                          <p class="card-text"><small class="text-muted"><a href="users.html">post by grace</a>
+                                            <button onclick="favourite()" class="btn btn-success btn-block">I like it</button></small></p>
+                                        </div>
+                                      </div>
+
+                                      <div class="card mb-4">
+                                        <a href="recipes-details.html">  <img class="card-img-top" src="img/v1.jpg" alt="Card image cap"></a>
+                                        <div class="card-block">
+                                          <a href="recipes-details.html"><h4 class="card-title">Indian Curry</h4></a>
+                                          <p class="card-text">Very good!</p>
+                                          <span class="icons">
+                                            
+                                            <p class="card-text"><small class="text-muted"><a href="users.html">post by grace</a> 
+                                              <button onclick="favourite()" class="btn btn-success btn-block">I like it</button> </small></p>
+                                          </span>
+                                        </div>
+                                      </div>
+
+                                      <div class="card mb-4">
+                                        <a href="recipes-details.html"> <img class="card-img-top" src="img/burger.jpg" alt="Card image cap"></a>
+                                        <div class="card-block">
+                                          <a href="recipes-details.html"><h4 class="card-title">Big Burger</h4></a>
+                                          <p class="card-text">Yummy!</p>
+                                          <span class="icons">
+                                            
+                                            <p class="card-text"><small class="text-muted"><a href="users.html">post by amy</a> 
+                                              <button onclick="favourite()" class="btn btn-success btn-block">I like it</button></small></p>
+                                          </span>
+                                        </div>
+                                      </div>
+
+                                    </div>
+                                    <nav aria-label="Page navigation example">
+                                      <ul class="pagination">
+                                        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                                      </ul>
+                                    </nav>
+                                      </div>
+                                </div>
+                        </div>
+                    </main>
+                </div>
+            </section>
+        <!--Start of Footer -->
+        <footer class="foot">
+            <div class="container">
+               <div class="row">
+                   <div class="col text-center">
+                       <p>
+                         &copy; Li Tsz Yan  187101137
+                       </p>
+                   </div>
+               </div>
+           </div>
+       </footer>
+       <!-- End of Footer -->
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
